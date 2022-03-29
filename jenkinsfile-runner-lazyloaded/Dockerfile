@@ -5,9 +5,9 @@ LABEL "com.github.actions.description"="Runs Jenkinsfile in a single-shot Jenkin
 LABEL "com.github.actions.icon"="battery-charging"
 LABEL "com.github.actions.color"="purple"
 
-LABEL "repository"="http://github.com/jonico/jenkinsfilerunner-github-actions"
+LABEL "repository"="http://github.com/pitlavij/jenkinsfilerunner-github-actions"
 LABEL "homepage"="http://github.com/actions"
-LABEL "maintainer"="Johannes Nicolai <jonico@github.com>"
+LABEL "maintainer"="vijay <vijay@github.com>"
 
 RUN mkdir -p /usr/share/maven && \
 curl -fsSL https://archive.apache.org/dist/maven/maven-3/3.5.2/binaries/apache-maven-3.5.2-bin.tar.gz | tar -xzC /usr/share/maven --strip-components=1 && \
